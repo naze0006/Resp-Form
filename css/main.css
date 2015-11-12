@@ -1,0 +1,244 @@
+/* -------------------- Defaults ----------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+html, body{
+	background:hsl(198,100%,94%);
+}
+
+
+
+
+/* -------------------- Layout ------------------ */
+
+.wrapper{
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  background: hsl(198,100%,94%) url(../images/bg.gif) no-repeat center center;
+
+  -o-background-size:100% 50%;
+
+  background-size:100% 30%;
+  
+
+}
+
+.masthead{
+	background: hsl(198,36%,34%);
+	color:hsl(198,100%,100%);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.masthead h1{
+    text-transform:capitalize;
+    font-size: 1.999em;
+}
+.masthead p {
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+    color: hsl(197,41%,61%);
+    text-transform:uppercase;
+    font-size: 1.414em;
+    
+}
+
+form label, form input{
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    width:100%;
+    clear:both;
+  }
+
+.focal .btn:hover{
+    color:#fcd307;
+    border: 2px solid #fcd307;
+}
+/* ----------------      Form     --------------- */
+form{
+	max-width: 90%;
+    margin: 0 auto;
+    min-height: 35rem;
+}
+
+
+.formbox{
+	margin: 1.0rem 0;
+}
+
+
+label{
+	display:none;
+	width: 15rem;
+	text-align:left;
+	margin: 0 0 0 3rem;
+	padding: 0.6rem 0 0.3rem 0; /* more space on the top than the bottom */
+	color: hsl(205,12%,31%);
+    font-size: 1rem;
+}
+
+input{
+	display:block;	
+	font-size: 1em;
+    padding-left: 1.5rem;
+    margin: 0.5rem 3rem;
+
+}
+
+.btn{
+	width: 12rem;
+    background-color:  hsl(198,36%,34%);
+    color: hsl(198,100%,100%);
+    margin:0 0 0 3rem;
+    text-align: center;   
+}
+
+.sm{
+	width: 4rem;
+}
+
+.med{
+	width: 20rem;
+}
+
+.lg{
+	width: 40rem;
+}
+
+.xl{
+	width: 60rem;
+}
+
+
+input[type='text'] {
+    background: hsl(198,100%,100%) url(/images/username.png) no-repeat 3px 3px;
+    -o-background-size: 18px 18px;
+    background-size: 18px 18px;
+}
+
+
+input[type='email'] {
+    background: hsl(198,100%,100%) url(/images/email.png) no-repeat 3px 3px;
+    -o-background-size: 18px 18px;
+    background-size: 18px 18px;
+}
+
+
+input[type='url'] {
+    background: hsl(198,100%,100%) url(/images/url.png) no-repeat 3px 3px;
+    -o-background-size: 18px 18px;
+    background-size: 18px 18px;
+}
+
+
+input[type='password'] {
+    background: hsl(198,100%,100%) url(/images/password.png) no-repeat 3px 3px;
+    -o-background-size: 18px 18px;
+    background-size: 18px 18px;
+}
+
+/* ----------------     OTHER    ---------------- */
+.clearfix:after{
+    content:' ';
+    display:block;
+    clear: both;
+    
+}
+/* ---------------- MEDIA QUERIES --------------- */
+
+@media all and (max-width: 600px){
+    
+    .formbox{
+	margin-top: 1.0rem;
+}
+
+}
+@media all and (min-width:700px) and (max-width:900px){
+   
+    label{
+        display:inline-block; 
+    }
+    
+    input{
+        display:inline-block;
+        
+    }
+    
+    .btn{
+	display: block;
+    }
+    
+    .formbox{	
+        float:left;
+        width:50%;
+        margin: 0.5rem 0;
+    }
+    
+}
+@media all and (min-width:900px) and (max-width:1015px){
+   
+    label{
+        display:inline-block; 
+    }
+    
+    input{
+        display:inline-block;
+        
+    }
+    
+    .btn{
+	display: block;
+    }
+    
+    .formbox{	
+        float:left;
+        width:50%;
+        margin: 0.1rem 0;
+    }
+    
+}
+
+@media all and (min-width:1015px){
+ 
+    label{
+        display:inline;
+        text-align:left;
+        float:left;
+        width: 5%;
+        margin: 0 0 0 3rem;
+        
+    }
+    
+    input{
+        display:inline;
+        text-align:left;	
+        float:right;
+        width: 60%;
+    }
+    
+    .btn{
+        display: block;
+        float: left;
+	
+    }
+    .formbox{	    
+        float:left;
+        width:50%;
+        margin: 0.5rem 0;
+
+}
+
+}
+
+  
+
