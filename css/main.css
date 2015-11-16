@@ -119,28 +119,28 @@ input{
 
 
 input[type='text'] {
-    background: hsl(198,100%,100%) url(/images/username.png) no-repeat 3px 3px;
+    background: hsl(198,100%,100%) url(../images/username.png) no-repeat 3px 3px;
     -o-background-size: 18px 18px;
     background-size: 18px 18px;
 }
 
 
 input[type='email'] {
-    background: hsl(198,100%,100%) url(/images/email.png) no-repeat 3px 3px;
+    background: hsl(198,100%,100%) url(../images/email.png) no-repeat 3px 3px;
     -o-background-size: 18px 18px;
     background-size: 18px 18px;
 }
 
 
 input[type='url'] {
-    background: hsl(198,100%,100%) url(/images/url.png) no-repeat 3px 3px;
+    background: hsl(198,100%,100%) url(../images/url.png) no-repeat 3px 3px;
     -o-background-size: 18px 18px;
     background-size: 18px 18px;
 }
 
 
 input[type='password'] {
-    background: hsl(198,100%,100%) url(/images/password.png) no-repeat 3px 3px;
+    background: hsl(198,100%,100%) url(../images/password.png) no-repeat 3px 3px;
     -o-background-size: 18px 18px;
     background-size: 18px 18px;
 }
